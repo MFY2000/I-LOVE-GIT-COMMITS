@@ -4,19 +4,8 @@ public class writer {
        try{    
 
            FileWriter fw = new FileWriter("C:/Users/MFY/Desktop/I-LOVE-GIT-COMMITS/file.txt");    
-           
-           String fileName = "/Users/pankaj/source.txt";
-           File file = new File(fileName);
-           FileReader fr = new FileReader(file);
-           BufferedReader br = new BufferedReader(fr);
-           String line;
-           while((line = br.readLine()) != null){
-               //process the line
-               System.out.println(line);
-           }
-
-
-           String message = "4";
+          
+           String message = Integer.toString((int) (Math.random()*24));
            fw.write(message);    
            
            
