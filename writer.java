@@ -4,7 +4,8 @@ public class writer {
        try{    
 
            FileWriter fw = new FileWriter("C:/Users/MFY/Desktop/I-LOVE-GIT-COMMITS/file.txt");    
-           fw.write("Welcome to javaTpoint.");    
+           String message = "4";
+           fw.write(message);    
            
            
            
