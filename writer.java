@@ -5,7 +5,7 @@ public class writer {
 
            FileWriter fw = new FileWriter("C:/Users/MFY/Desktop/I-LOVE-GIT-COMMITS/file.txt");    
           
-           String message = Integer.toString((int) (Math.random()*24));
+           char message = (char) ((int) ((Math.random()*26)+65));
            fw.write(message);    
            
            
